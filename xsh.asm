@@ -224,13 +224,13 @@ xsh_strcmp:
     ret
 
 ; SECCIÓN DE DATOS
-msg_welcome  db '--- Ecosistema de Comandos XSH v0.1 ---', 10, 13, 0
+msg_welcome  db '--- Command Ecosystem XSH v0.1 ---', 10, 13, 0
 msg_prompt   db 10, 13, '| ', 0
-msg_err_cmd  db 10, 13, 'Error: Comando o XEXE no reconocido.', 0
+msg_err_cmd  db 10, 13, 'Error, XEXE file not recognized.', 0
 cmd_ver      db 'ver', 0
-msg_ver_out  db 10, 13, 'XOS Shell nativa sin dependencias UNIX.', 0
+msg_ver_out  db 10, 13, 'XOS native shell without UNIX dependencies.', 0
 cmd_dir      db 'dir', 0
-msg_dir_out  db 10, 13, 'Estructura lineal EXFS: [|system|] [|apps|] [|games|]', 0
+msg_dir_out  db 10, 13, 'Lineal structure EXFS: [|system|] [|apps|] [|games|]', 0
 cmd_clear    db 'limpiar', 0
 ansi_clear   db 27, '[2J', 27, '[H', 0 
 
